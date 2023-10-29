@@ -10,6 +10,9 @@
 #include "mqtt/async_client.h"
 #include "models.h"
 
+#include <src/commands.hpp>
+#include <src/utils.hpp>
+
 const std::string SERVER_ADDRESS("tcp://localhost:1883");
 const std::string CLIENT_ID("paho_cpp_async_subcribe");
 const std::string TOPIC("hello");
@@ -146,7 +149,6 @@ public:
 };
 
 int main(int argc, char *argv[]) {
-    Temperature t;
     if (argc < 2) {
         // report version
         std::cout << argv[0] << " Version " << BambuLib_VERSION_MAJOR << "."

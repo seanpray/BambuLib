@@ -29,7 +29,7 @@ const simdjson::padded_string SEND_GCODE_TEMPLATE = R"( {"print": {"sequence_id"
 // X1 only
 const simdjson::padded_string GET_ACCESSORIES = R"( {"system": {"sequence_id": "0", "command": "get_accessories", "accessory_type": "none"}} )"_padded;
 
-enum Features {
+enum class Features {
     AUX_FAN = 1,
     CHAMBER_LIGHT = 2,
     CHAMBER_FAN = 3,
@@ -45,7 +45,7 @@ enum Features {
     START_TIME_GENERATED = 14,
 };
 
-enum FanEnum {
+enum class FanEnum {
     PART_COOLING = 1,
     AUXILIARY = 2,
     CHAMBER = 3,

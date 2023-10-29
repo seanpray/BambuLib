@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
-set(C_STANDARD 11)
-set(CXX_STANDARD 14)
+set(C_STANDARD 17)
+set(CXX_STANDARD 22)
 project(BambuLib VERSION 0.1)
 find_package(Threads REQUIRED)
 
