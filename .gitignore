@@ -62,6 +62,7 @@ CPackConfig.cmake
 CPackSourceConfig.cmake
 .clangd
 compile_commands.json
+BambuLib
 
 # C++ ignore from https://github.com/github/gitignore/blob/master/C%2B%2B.gitignore
 
