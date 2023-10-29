@@ -1,0 +1,2 @@
+#define BambuLib_VERSION_MAJOR @BambuLib_VERSION_MAJOR@
+#define BambuLib_VERSION_MINOR @BambuLib_VERSION_MINOR@
